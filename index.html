@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Connor Clarke — Portfolio</title>
+	<meta name="description" content="Portfolio of Your Name: projects, skills, and contact information.">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+  	<a class="skip-link" href="#content">Skip to content</a>
+  	<div id="loader-overlay" class="loader-overlay" aria-hidden="false" role="status" aria-live="polite">
+    	<div class="loader-content">
+      		<svg id="c-loader" class="c-loader" viewBox="0 0 200 200" width="200" height="200" aria-label="Loading">
+        	<path id="c-track-path" class="c-track" d="M140,20 L60,20 L20,100 L60,180 L140,180" />
+        	<path id="c-progress-path" class="c-progress" d="M140,20 L60,20 L20,100 L60,180 L140,180" />
+      		</svg>
+      	<div class="loader-text">Loading…</div>
+    	</div>
+  	</div>
+	<header>
+		<div class="container nav">
+		<div class="brand">Connor Clarke</div>
+		<nav id="site-nav" aria-label="Primary" aria-expanded="false">
+			<button class="nav-toggle" aria-controls="site-nav" aria-expanded="false" type="button">Menu</button>
+			<ul>
+			<li><a href="#about">About</a></li>
+			<li><a href="#experience">Experience</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		</div>
+	</header>
+
+	<main id="content">
+		<section class="section">
+		<div class="container hero">
+			<div>
+			<h1>Software Engineer</h1>
+			<p class="muted">I specialize in creating efficient, scalable, and user-friendly software solutions.</p>
+			<p class="muted">In my free time, I enjoy playing games like Dark Souls and Deadlock, going on walks, and learning Japanese.</p>
+			<div class="cta">
+				<a class="btn primary" href="#projects">View Projects</a>
+				<a class="btn" href="#contact">Contact Me</a>
+			</div>
+			</div>
+			<div>
+			<div class="avatar-frame">
+				<img class="avatar" src="https://via.placeholder.com/320x320.png?text=Your+Photo" alt="Portrait of Your Name">
+			</div>
+			</div>
+		</div>
+		</section>
+
+		<section id="about" class="section">
+		<div class="container">
+			<h2>About</h2>
+			<p>I'm a full-stack focused software engineer with a passion for automation, design, and accessibility. I enjoy partnering closely with design and product to ship impactful experiences, and I love to learn new technologies and tools to help me become a better engineer.</p>
+			<p class="muted">At Körber Supply Chain LLC, I led the development of Project Quasar, a tech upgrade for Johnson & Johnson that sought to modernize J&J's global warehouse management system, which supported over $88.82B of annual revenue.</p>
+		</div>
+		</section>
+
+		<section id="experience" class="section">
+		<div class="container">
+			<h2>Experience</h2>
+			<div class="timeline">
+			<div class="timeline-item">
+				<div class="timeline-marker"></div>
+				<div class="timeline-content">
+				<div class="timeline-header">
+					<h3>Software Engineer</h3>
+					<span class="timeline-company">Körber Supply Chain LLC</span>
+					<span class="timeline-date">2023 - Present</span>
+				</div>
+				<p class="muted">Leading full-stack development for enterprise applications. Creating new features and improving existing ones to help solve real-world problems. Optimizing and automating processes to improve efficiency.</p>
+				</div>
+			</div>
+			
+			<div class="timeline-item">
+				<div class="timeline-marker"></div>
+				<div class="timeline-content">
+				<div class="timeline-header">
+					<h3>Bachelor of Science in Computer Science</h3>
+					<span class="timeline-company">University of Pittsburgh</span>
+					<span class="timeline-date">2020 - 2022</span>
+				</div>
+				<p class="muted">Graduated with a bachelor's degree in Computer Science. Worked on several projects including a web application for arbitrage betting. Volunteered at Pitt clubs such as Oakland Outreach to better help underprivileged families in Pittsburgh.</p>
+				</div>
+			</div>
+			
+			<div class="timeline-item">
+				<div class="timeline-marker"></div>
+				<div class="timeline-content">
+				<div class="timeline-header">
+					<h3>Associate of Science in General Studies</h3>
+					<span class="timeline-company">Butler County Community College</span>
+					<span class="timeline-date">2017 - 2019</span>
+				</div>
+				<p class="muted">Graduated with an associate's degree in General Studies.</p>
+				</div>
+			</div>
+			</div>
+		</div>
+		</section>
+
+		<section id="skills" class="section">
+		<div class="container">
+			<h2>Skills</h2>
+			<div class="grid">
+			<div class="card">
+				<h3>Frontend</h3>
+				<p class="muted">HTML, CSS, JavaScript, Vue.js, Bootstrap, JQuery, jqGrid, SAML2, Single Sign On</p>
+			</div>
+			<div class="card">
+				<h3>Backend</h3>
+				<p class="muted">Python, Flask, PL/SQL, C#, Java, Oracle Database</p>
+			</div>
+			<div class="card">
+				<h3>Tools</h3>
+				<p class="muted">SVN, Git, CI/CD, Testing, Automation</p>
+			</div>
+			</div>
+		</div>
+		</section>
+
+		<section id="contact" class="section">
+		<div class="container">
+			<h2>Contact</h2>
+			<p>Interested in working together? Reach out and let's talk.</p>
+			<p>
+			<a class="btn primary" href="mailto:clarke.connor@proton.me">Email me</a>
+			<a class="btn" href="resume.pdf">Download résumé</a>
+			</p>
+		</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="container">
+		<div class="footer-content">
+			<small>© <span id="year"></span> Connor Clarke. All rights reserved.</small>
+			<div class="social-links">
+			<a href="https://linkedin.com/in/cclarke1515" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+				<svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+				<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+				</svg>
+			</a>
+			<a href="mailto:clarke.connor@proton.me" aria-label="Email">
+				<svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+				<path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+				</svg>
+			</a>
+			</div>
+		</div>
+		</div>
+	</footer>
+
+	<script src="scripts.js"></script>
+</body>
+</html>
+
+
