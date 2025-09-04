@@ -8,7 +8,7 @@
   border: 2px solid var(--border); 
   background: var(--panel);
   clip-path: polygon(70% 10%, 30% 10%, 10% 50%, 30% 90%, 70% 90%, 90% 50%);
-  object-fit: cover;
+  object-fit: contain;
 }
 .card { 
   background: var(--panel);
